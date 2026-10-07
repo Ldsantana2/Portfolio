@@ -1,75 +1,125 @@
-# React + TypeScript + Vite
+# 👨‍💻 Lucas Dantas — Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido para apresentar minha trajetória como **Software Engineer**, projetos desenvolvidos, experiências profissionais, habilidades técnicas e formas de contato.
 
-Currently, two official plugins are available:
+A aplicação foi construída como uma **Single Page Application (SPA)**, com foco em uma interface moderna, responsiva e organizada, permitindo uma navegação simples pelas principais informações profissionais e projetos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Índice
 
-## React Compiler
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Stack Tecnológica](#stack-tecnológica)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Como Executar](#como-executar)
+- [Build de Produção](#build-de-produção)
+- [Deploy](#deploy)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Visão Geral
 
-## Expanding the ESLint configuration
+O portfólio apresenta informações sobre minha experiência profissional, formação, conhecimentos técnicos e principais projetos desenvolvidos.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Entre os projetos apresentados estão aplicações **Full Stack**, APIs, sistemas de gestão e aplicações web desenvolvidas utilizando diferentes tecnologias e arquiteturas.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O projeto foi desenvolvido com **React e TypeScript**, utilizando o Vite como ferramenta de desenvolvimento e build.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Apresentação profissional e informações sobre experiência.
+- Exibição das principais habilidades e tecnologias.
+- Listagem de projetos desenvolvidos.
+- Descrição e tecnologias utilizadas em cada projeto.
+- Seção de experiência profissional.
+- Informações sobre formação e certificações.
+- Links para GitHub, LinkedIn e outros canais profissionais.
+- Interface responsiva para diferentes tamanhos de tela.
 
+## Stack Tecnológica
+
+| Tecnologia | Uso                                       |
+| ---------- | ----------------------------------------- |
+| React      | Construção da interface e componentes     |
+| TypeScript | Tipagem estática e desenvolvimento seguro |
+| Vite       | Ambiente de desenvolvimento e build       |
+| ESLint     | Padronização e análise do código          |
+
+## Estrutura do Projeto
+
+```text
+portfolio/
+├── public/                 # Arquivos públicos e assets
+├── src/
+│   ├── assets/             # Imagens e recursos visuais
+│   ├── components/         # Componentes reutilizáveis
+│   ├── pages/              # Seções/páginas da aplicação
+│   ├── data/               # Dados utilizados pelo portfólio
+│   ├── App.tsx             # Componente principal
+│   └── main.tsx            # Ponto de entrada da aplicação
+│
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── eslint.config.js
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como Executar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Pré-requisitos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js
+- npm
 
+### Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <DIRETORIO_DO_PROJETO>
+npm install
 ```
+
+### Desenvolvimento
+
+Execute o projeto em ambiente de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível no endereço exibido pelo Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+## Build de Produção
+
+Para gerar a versão otimizada para produção:
+
+```bash
+npm run build
+```
+
+Para visualizar localmente a build de produção:
+
+```bash
+npm run preview
+```
+
+## Deploy
+
+O projeto pode ser facilmente publicado em plataformas de hospedagem para aplicações frontend, como a **Vercel**.
+
+Por não possuir backend ou banco de dados próprio, o portfólio pode ser disponibilizado como uma aplicação frontend estática.
+
+---
+
+## 👨‍💻 Autor
+
+**Lucas Dantas**
+
+Software Engineer
+
+- GitHub: [Ldsantana2](https://github.com/Ldsantana2)
+- LinkedIn: [lucas-dantas-eng-dev](https://www.linkedin.com/in/lucaseduardodantas/)
