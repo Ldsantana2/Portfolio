@@ -1,28 +1,68 @@
 [
     {
-        "title": "SICOC — Sistema de Consultas e Organização",
-        "description": "Sistema web projetado para unificar a gestão de contatos e eventos de diferentes áreas organizacionais. A aplicação oferece uma navegação fluida, sistema de calendário integrado e suporte a notificações push. Construído sobre o ecossistema Laravel, o projeto equilibra um back-end altamente seguro, com gestão de roles dinâmicas, e uma interface moderna projetada para alta usabilidade.",
+        "title": "Good Burger",
+        "description": "Sistema para gerenciamento de pedidos de uma lanchonete, permitindo consultar o cardápio, registrar, editar e acompanhar pedidos de forma organizada. O sistema também aplica automaticamente descontos de acordo com os produtos escolhidos, facilitando o atendimento e reduzindo erros no processo.",
         "techs": [
-            "PHP 8.3",
-            "Laravel 13",
-            "Tailwind CSS",
-            "MySQL 8",
-            "Livewire",
-            "Alpine.js",
-            "Pest 4"
+            ".NET 9",
+            "ASP.NET Core Web API",
+            "C#",
+            "Blazor WebAssembly",
+            "JWT",
+            "Swagger / OpenAPI",
+            "xUnit"
         ],
-        "link": ""
+        "link": "https://github.com/Ldsantana2/DashboardLanches"
     },
     {
-        "title": "Refatoração de Sistema de Gestão Interna",
-        "description": "Atuação na modernização de um sistema governamental legado. O projeto envolveu a reestruturação de relacionamentos no banco de dados para suportar novos requisitos do negócio e a correção do motor de exportação de relatórios complexos em PDF. Na camada de interface, implementei lógicas de sanitização e tratamento de Edge Cases, garantindo que dados inconsistentes relacionados a datas e horas fossem exibidos de forma clara e funcional para o usuário final. Toda a reestruturação foi apoiada por boas práticas de arquitetura, garantindo a integridade e escalabilidade do banco de dados através da implementação de factories, seeders, observers e jobs para processamento assíncrono.",
-        "techs": ["PHP", "Laravel", "SQL", "JavaScript"],
-        "link": ""
+        "title": "Agenda Aqui",
+        "description": "Sistema web para gerenciamento de consultas e serviços de saúde, conectando pacientes, médicos e clínicas. Permite realizar agendamentos, gerenciar informações de pacientes e profissionais, consultar exames e planos de saúde, além de organizar horários, serviços e atendimentos.",
+        "techs": [
+            "Node.js",
+            "NestJS",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "Next.js 15",
+            "React 19",
+            "Ant Design",
+            "Tailwind CSS",
+            "React Query",
+            "React Hook Form",
+            "Zod",
+            "Axios"
+        ],
+        "link": "https://github.com/Ldsantana2/AgendaAqui"
     },
     {
-        "title": "Em Breve: Portfolio Interativo",
-        "description": "Portfolio Interativo em formato de jogo 2D desenvolvido em Typescript, permitindo o usuário passear pelo mapa, interação com NPCs e entrar em contato com o Desenvolvedor através do próprio jogo",
-        "techs": ["TypeScript"],
-        "link": ""
+        "title": "Gestão de Gastos Residenciais",
+        "description": "Sistema de gestão de gastos residenciais que permite cadastrar usuários e controlar suas transações financeiras, registrando receitas e despesas. O sistema também apresenta o saldo individual e os totais gerais, facilitando o acompanhamento da situação financeira dos usuários.",
+        "techs": [
+            "C#",
+            "ASP.NET Core",
+            "Entity Framework Core",
+            "SQL Server",
+            "DDD",
+            "FluentValidation",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "React Router"
+        ],
+        "link": "https://github.com/Ldsantana2/DashboardGastos"
+    },
+    {
+        "title": "Controle de Tarefas",
+        "description": "Sistema de controle de tarefas que permite cadastrar, editar e excluir tarefas, registrando informações como nome, custo e prazo. Possui organização por páginas e permite reordenar as tarefas por meio de arrastar e soltar, facilitando o gerenciamento e acompanhamento das atividades.",
+        "techs": [
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "React",
+            "React DnD",
+            "Tailwind CSS"
+        ],
+        "link": "https://github.com/Ldsantana2/ControleTarefas"
     }
 ]
